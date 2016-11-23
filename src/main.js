@@ -10,7 +10,7 @@ import ReactDOM from 'react-dom'
 import { AppContainer } from 'react-hot-loader'
 import { browserHistory } from 'react-router'
 import { syncHistoryWithStore } from 'react-router-redux';
-import configureStore from 'src/core/stoe'
+import configureStore from 'src/core/store'
 import { initAuth } from 'src/core/auth'
 
 import Root from './views/root'
